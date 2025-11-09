@@ -8,7 +8,7 @@ Thanks for your interest in contributing to **useSend**! We’re an open-source 
 
 All contributions begin with setting up the project locally. Follow the steps below to get started.
 
-📖 **Refer to the full setup guide:**  
+📖 **Refer to the full setup guide:**
 [https://docs.usesend.com/get-started/local](https://docs.usesend.com/get-started/local)
 
 ### ⚙️ Prerequisites
@@ -82,8 +82,8 @@ GITHUB_SECRET=your_client_secret
 If you want to send real emails, add:
 
 ```env
-AWS_ACCESS_KEY=your_access_key
-AWS_SECRET_KEY=your_secret_key
+AAWS_ACCESS_KEY=your_access_key
+AAWS_SECRET_KEY=your_secret_key
 ```
 
 > You can skip this by using the `local-sen-sns` image for local-only email development.
